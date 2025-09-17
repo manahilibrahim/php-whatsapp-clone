@@ -1,0 +1,13 @@
+{
+  "name": "example/whatsapp-php-backend",
+  "description": "PHP backend for WhatsApp clone (REST + WebSocket)",
+  "require": {
+    "php": ">=8.0",
+    "cboden/ratchet": "^0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
